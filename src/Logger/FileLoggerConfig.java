@@ -3,7 +3,7 @@ package Logger;
 public class FileLoggerConfig {
     private final LoggingLevel loggingLevel = LoggingLevel.INFO;
     private final String format = "%s %s %s %s";
-    private final String path = ".src\\Logger\\LogFiles\\LogFiles\\";
+    private final String path = ".src\\Logger\\LogFiles\\";
 
     public String getPath() {
         return path;
